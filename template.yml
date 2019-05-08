@@ -5,6 +5,18 @@ Parameters:
     Description: 'The pattern of bucket names to allow access to read artifacts from.  Recommended
       value: *'
 Description: Lambda function to run cfn_nag as a step in a pipeline
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: cfn-nag-pipeline
+    Description: A lambda function to run cfn_nag as an action in CodePipeline
+    Author: Stelligent
+    SpdxLicenseId: Apache-2.0
+    LicenseUrl: https://raw.githubusercontent.com/stelligent/cfn-nag-pipeline/master/LICENSE.md
+    ReadmeUrl: https://raw.githubusercontent.com/stelligent/cfn-nag-pipeline/master/README.md
+    Labels: ['codepipeline' 'cloudformation' 'cfn_nag']
+    HomePageUrl: https://github.com/stelligent/cfn-nag-pipeline
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/stelligent/cfn-nag-pipeline
 Resources:
   CfnNagFunction:
     Type: AWS::Serverless::Function

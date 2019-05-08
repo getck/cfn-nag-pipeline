@@ -13,7 +13,7 @@ Metadata:
     SpdxLicenseId: Apache-2.0
     LicenseUrl: https://raw.githubusercontent.com/stelligent/cfn-nag-pipeline/master/LICENSE.md
     ReadmeUrl: https://raw.githubusercontent.com/stelligent/cfn-nag-pipeline/master/README.md
-    Labels: ['codepipeline' 'cloudformation' 'cfn_nag']
+    Labels: ['codepipeline','cloudformation','cfn_nag']
     HomePageUrl: https://github.com/stelligent/cfn-nag-pipeline
     SemanticVersion: 0.0.1
     SourceCodeUrl: https://github.com/stelligent/cfn-nag-pipeline

@@ -41,3 +41,4 @@ NOTE: due to a bug with SAM policy templates ([#389](https://github.com/awslabs/
 * To run tests and build the lambda function, run: `make`
 * To deploy the function, run: `make deploy`
 * To deploy a new version to Serverless Application Repository, update the `VERSION` in `Makefile` and run: `make sar`
+* Adding a comment to test SAR pipeline
